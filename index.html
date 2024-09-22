@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortnite Versus</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Fortnite Versus</h1>
+        <div class="input-container">
+            <input type="text" id="player1" placeholder="Nombre del Jugador 1" required>
+            <input type="text" id="player2" placeholder="Nombre del Jugador 2" required>
+            <button id="compareBtn">Comparar</button>
+        </div>
+        <div class="charts-container">
+            <canvas id="statsChart"></canvas>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
